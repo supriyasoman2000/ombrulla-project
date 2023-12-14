@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-margin: hidden;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    background-image: linear-gradient(to right bottom, #9bbdf2, #bbccf5, #d6dbf8, #ededfb, #ffffff);;
+    background-repeat: no-repeat;
+}
+.navbar-brand{
+    margin-left: 10px;
+}
+.img{
+    margin-left: 75px;
+}
+.button{
+    border-radius: 15px;
+    background-color: #1d4ed8;
+    color: white;
+}
+
+
+
+
+button {
+    margin: 0;
+    padding: 0;
+}
+
+.play {
+    height: 0;
+    width: 0;
+    margin-left: calc(2 * 0.14 * var(--button-height));
+    /*margin-left: 17px;*/
+    background: none;
+    border: none;
+    border-top: var(--button-height) solid transparent;
+    border-bottom: var(--button-height) solid transparent;
+    border-left: calc(var(--button-height) * 2 * 0.86) solid var(--button-color);
+    
+}
+
+
+.btn{
+    background-color: #1d4ed8;
+    }
+    .para{
+        margin-top: -90px;
+        margin-left: 390px;
+    }
+    .btn-schedule:hover{
+        background-color: white;
+        color: #1d4ed8;
+
+    }
+    .btn-schedule{
+        border-radius: 157px;
+        background-color: #1d4ed8;
+        color: white;width: 160px;
+        height: 58px;
+        font-weight: bold;
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+
+    .btn:hover{
+        background-color: white;
+        color: #1d4ed8;
+    }
+    .btn-reschedule:hover{
+        background-color: white;
+        color: #1d4ed8;
+
+    }
+    .btn-reschedule{
+        border-radius: 157px;
+        border-color: white;
+        background-color: #1d4ed8;
+        color: white;width: 160px;
+        height: 58px;
+        font-weight: bold;
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+
+   
